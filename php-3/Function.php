@@ -14,19 +14,6 @@ function hitungLuasPersegiPanjang($panjang, $lebar=15) {
     return $luas;
 }
 
-echo hitungLuasPersegiPanjang(10,25);
-echo "<br>";
-echo hallo();
-echo "<br>";
-echo hitungLuasPersegi(15);
-echo "<br>";
-echo hitungLuasPersegi(10);
-echo "<br>";
-echo hitungLuasPersegi(5);
-echo "<br>";
-
-
-
 function konversiSuhu($suhu, $dari="C", $ke="R") {
     if ($dari == "C" && $ke=="R") {
         $hasil = $suhu * 4/5;
@@ -39,4 +26,14 @@ function konversiSuhu($suhu, $dari="C", $ke="R") {
     return $hasil;
 }
 
+echo hitungLuasPersegiPanjang(10,25);
+echo "<br>";
+echo hallo();
+echo "<br>";
+echo hitungLuasPersegi(15);
+echo "<br>";
+echo hitungLuasPersegi(10);
+echo "<br>";
+echo hitungLuasPersegi(5);
+echo "<br>";
 echo "Hasil Konversi dari Suhu 100C ke Reamaur adalah ".konversiSuhu(100);
