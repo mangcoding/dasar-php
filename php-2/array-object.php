@@ -24,7 +24,7 @@ $mahasiswa = [
 ];
 
 foreach ($mahasiswa as $mhs) {
-    echo "<br>Nama : {$mhs['nama']}";
+    echo "<td>Nama : {$mhs['nama']}";
     echo "<br>NIM : {$mhs['nim']}";
     echo "<br>Jurusan : {$mhs['jurusan']}";
     echo "<br>Email : {$mhs['email']}";
